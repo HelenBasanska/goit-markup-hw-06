@@ -376,14 +376,12 @@
 
     <footer class="footer">
       <div class="container">
-        <section class="footer-contacts">
-          <ul class="contacts-list">
-            <li>
-              <a href="./index.html" lang="en" class="logo-footer"
+        <div class="footer-contacts">
+          <a href="./index.html" lang="en" class="logo-footer"
             >Web<span>Studio</span></a>
-            </li>
-            <li>
-              <address class="footer-address">
+          <address class="footer-address"></address>
+            <ul class="contacts-list">
+               <li>
                 <a
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                 class="item footer-address"
@@ -395,9 +393,9 @@
             <li><a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="item">+38 096 111 11 11</a></li>
           </ul>
-        </section>
+        </div>
 
-        <section class="footer-smm">
+        <div class="footer-smm">
           <p class="join">Приєднуйтесь</p>
           <ul class="footer-smm-list">
             <li class="smm">
@@ -429,20 +427,20 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section class="subscribe-form">
+        <div class="subscribe-form">
           <p class="subscribe">Підпишіться на розсилку</p>
-          <div class="email-subscr">
+          <form class="email-subscr">
             <input type="text" name="email" placeholder="E-mail"/>
-            <button type="button" class="subscribe button">
+            <button type="submit" class="subscribe button">
               Підписатися
               <svg class="subscribe-icon" width="24px" height="24px">
               <use href="./images/symbol-defs.svg#icon-subscribe"></use>
             </svg>
             </button>
-          </div>
-        </section>
+          </form>
+        </div>
       </div>
     </footer>
 
